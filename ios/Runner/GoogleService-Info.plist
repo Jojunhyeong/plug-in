@@ -3,9 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
+<<<<<<< HEAD
 	<string>1040166340050-3p8r42j2ogpnp2lofk64sk29gan10om4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
 	<string>com.googleusercontent.apps.1040166340050-3p8r42j2ogpnp2lofk64sk29gan10om4</string>
+=======
+	<string>1040166340050-45e6i2f2dua2nq4h25irri0unaluhglf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1040166340050-45e6i2f2dua2nq4h25irri0unaluhglf</string>
+>>>>>>> 8b10362 (widget.dart)
 	<key>ANDROID_CLIENT_ID</key>
 	<string>1040166340050-3geis6ul5jnhpnq03rciv15alb0m0sup.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +21,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
+<<<<<<< HEAD
 	<string>com.example.plugIn</string>
+=======
+	<string>com.Josh.plugIn</string>
+>>>>>>> 8b10362 (widget.dart)
 	<key>PROJECT_ID</key>
 	<string>plug-in-6f160</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +41,10 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
+<<<<<<< HEAD
 	<string>1:1040166340050:ios:b2144283a14ce450c6340b</string>
+=======
+	<string>1:1040166340050:ios:e2aa119921a77c4fc6340b</string>
+>>>>>>> 8b10362 (widget.dart)
 </dict>
 </plist>

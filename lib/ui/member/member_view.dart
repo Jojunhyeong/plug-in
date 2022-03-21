@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plug_in/ui/component/plug_in_container.dart';
 import 'package:plug_in/provider/member_provider.dart';
+import 'package:plug_in/ui/component/plug_in_container.dart';
 import 'package:provider/provider.dart';
 
 class MemberView extends StatelessWidget {
@@ -18,14 +18,14 @@ class MemberView extends StatelessWidget {
               child: Text("가입"),
               onPressed: () {
                 member.signUp(
-                    email: "dohun31@naver.com", password: "qorehgns31");
+                    email: "jojh0323@pukyong.ac.kr", password: "12345678");
               },
             ),
             FloatingActionButton(
               child: Text("로긘"),
               onPressed: () {
                 member.signIn(
-                    email: "dohun31@naver.com", password: "qorehgns31");
+                    email: "jojh0323@pukyong.ac.kr", password: "12345678");
               },
             ),
             FloatingActionButton(

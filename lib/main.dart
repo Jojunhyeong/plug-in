@@ -1,10 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:plug_in/ui/component/plug_in_profile_preview.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:plug_in/ui/member/member_view.dart';
+import 'package:flutter/material.dart';
 import 'package:plug_in/ui/member/member_page.dart';
-import 'package:plug_in/ui/route/route_page.dart';
 
 import 'firebase_options.dart';
 
@@ -23,17 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Test"),
-        ),
-        body: Column(
-          children: [
-            MemberPage(),
-            RoutePage(),
-          ],
-        ),
-      ),
+      home: MemberPage(),
     );
   }
 }

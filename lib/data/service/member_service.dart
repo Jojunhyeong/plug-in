@@ -30,4 +30,12 @@ class MemberService {
   logOut() async {
     await _memberRepository.logOut();
   }
+
+  weight() {
+    _memberRepository.weight();
+  }
+
+  memmo(String email, String password, String weight) {
+    _memberRepository.mmmemo(email, password, weight);
+  }
 }
